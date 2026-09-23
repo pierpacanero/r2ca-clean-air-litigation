@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "type": "Domestic",
+    "court": "Court of Justice of the European Union (Grand Chamber)"
+  },
+  "abstract": "Test test",
+  "docket": "1234",
+  "filing_year": 2026,
+  "topics": [
+    "Pollution",
+    "Very polluted"
+  ],
+  "name": "Test",
+  "slug": "testcase",
+  "at_issue": "Test test",
+  "status": "Decided",
+  "sources": [
+    {
+      "label": "EU union"
+    }
+  ],
+  "geography": {
+    "country": "Italy",
+    "iso_n3": "380"
+  },
+  "proceedings": [
+    {
+      "date": "01/03/2026",
+      "body": "Supreme Court ",
+      "title": "Test Case",
+      "outcome": "Won"
+    }
+  ]
+}
