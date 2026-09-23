@@ -328,6 +328,29 @@ footer.site {
 }
 footer.site p { margin: 4px 0; max-width: 100ch; }
 
+/* ---------- icone e bandiere ---------- */
+.ic { width: 17px; height: 17px; flex: none; }
+.stat .n { display: flex; align-items: center; gap: 8px; }
+.stat .ic { width: 21px; height: 21px; color: var(--muted); }
+.side-box h2 { display: flex; align-items: center; gap: 7px; }
+.side-box h2 .ic { width: 15px; height: 15px; color: var(--blue); }
+.lbl { display: inline-flex; align-items: center; gap: 8px; min-width: 0; }
+.court-btn .ic { width: 15px; height: 15px; color: var(--blue); }
+.flag {
+  width: 16px; height: 16px; border-radius: 50%; flex: none;
+  vertical-align: -3px; box-shadow: 0 0 0 1px var(--line);
+}
+.tag.geo { display: inline-flex; align-items: center; gap: 5px; }
+.tag.geo .flag { width: 13px; height: 13px; vertical-align: 0; }
+.active-chip .flag { width: 14px; height: 14px; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5); }
+.fact .flag { margin-right: 6px; }
+.search-wrap { position: relative; flex: 1 1 220px; min-width: 160px; display: flex; }
+.search-wrap .ic {
+  position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+  width: 15px; height: 15px; color: var(--muted); pointer-events: none;
+}
+.search-wrap input[type="search"] { flex: 1; width: 100%; padding-left: 33px; }
+
 [hidden] { display: none !important; }
 @media (prefers-reduced-motion: reduce) {
   .case-card { transition: none; }

@@ -2,7 +2,16 @@
 (function () {
   "use strict";
 
-  var state = { cases: [], world: null, search: "", status: "", juris: "", country: "" };
+  var state = { cases: [], world: null, isoA2: {}, search: "", status: "", juris: "", country: "" };
+
+  /* bandiere: circle-flags (MIT) via jsDelivr; iso_n3 -> alpha-2 da data/iso-a2.json */
+  var FLAG_CDN = "https://cdn.jsdelivr.net/gh/HatScripts/circle-flags@2.7.0/flags/";
+  function flagImg(iso) {
+    var a2 = state.isoA2[iso];
+    if (!a2) return "";
+    return '<img class="flag" src="' + FLAG_CDN + a2 + '.svg" alt="" width="16" height="16" loading="lazy">';
+  }
+  var ICON_LANDMARK = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 18v-7"/><path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M3 22h18"/><path d="M6 18v-7"/></svg>';
 
   function statusGroup(s) {
     var t = (s || "").toLowerCase();
@@ -20,10 +29,12 @@
   /* ---------- data ---------- */
   Promise.all([
     fetch("data/cases.json").then(function (r) { return r.json(); }),
-    fetch("data/countries-110m.json").then(function (r) { return r.json(); })
+    fetch("data/countries-110m.json").then(function (r) { return r.json(); }),
+    fetch("data/iso-a2.json").then(function (r) { return r.json(); }).catch(function () { return {}; })
   ]).then(function (res) {
     state.cases = res[0];
     state.world = res[1];
+    state.isoA2 = res[2] || {};
     init();
   }).catch(function (e) {
     var el = document.getElementById("case-list");
@@ -132,7 +143,7 @@
       ["ECtHR", "European Court of Human Rights"]
     ];
     box.innerHTML = defs.map(function (d) {
-      return '<button type="button" class="court-btn" data-j="' + d[0] + '"><span>' + esc(d[1]) + '</span><span class="count-pill">' + (byJuris[d[0]] || 0) + "</span></button>";
+      return '<button type="button" class="court-btn" data-j="' + d[0] + '"><span class="lbl">' + ICON_LANDMARK + "<span>" + esc(d[1]) + '</span></span><span class="count-pill">' + (byJuris[d[0]] || 0) + "</span></button>";
     }).join("");
     box.querySelectorAll(".court-btn").forEach(function (b) {
       b.addEventListener("click", function () {
@@ -150,7 +161,7 @@
       return { iso: iso, name: countryName(iso), n: byCountry[iso] };
     }).sort(function (a, b) { return b.n - a.n || a.name.localeCompare(b.name); });
     box.innerHTML = rows.map(function (r) {
-      return '<button type="button" class="country-btn" data-iso="' + r.iso + '"><span>' + esc(r.name) + '</span><span class="count-pill">' + r.n + "</span></button>";
+      return '<button type="button" class="country-btn" data-iso="' + r.iso + '"><span class="lbl">' + flagImg(r.iso) + "<span>" + esc(r.name) + '</span></span><span class="count-pill">' + r.n + "</span></button>";
     }).join("");
     box.querySelectorAll(".country-btn").forEach(function (b) {
       b.addEventListener("click", function () {
@@ -165,7 +176,7 @@
     var chip = document.getElementById("f-country");
     if (iso) {
       chip.hidden = false;
-      chip.innerHTML = esc(countryName(iso)) + ' <span class="x" aria-hidden="true">×</span><span class="sr-only"> — remove country filter</span>';
+      chip.innerHTML = flagImg(iso) + esc(countryName(iso)) + ' <span class="x" aria-hidden="true">×</span><span class="sr-only"> — remove country filter</span>';
     } else {
       chip.hidden = true;
     }
@@ -203,7 +214,7 @@
         "<h3>" + esc(c.name) + "</h3>" +
         '<p class="issue">' + esc(c.at_issue) + "</p>" +
         '<div class="meta-row">' +
-        '<span class="tag geo">' + esc(c.geography.country) + "</span>" +
+        '<span class="tag geo">' + flagImg(c.geography.iso_n3) + "<span>" + esc(c.geography.country) + "</span></span>" +
         '<span class="tag">' + esc(c.jurisdiction.type === "Domestic" ? "Domestic courts" : c.jurisdiction.type) + "</span>" +
         '<span class="tag year">Filed ' + esc(c.filing_year) + "</span>" +
         '<span class="status ' + statusClass(c.status) + '">' + esc(c.status) + "</span>" +
@@ -245,14 +256,14 @@
       '<span class="sample-chip">Sample record</span>' +
       "<h2>" + esc(c.name) + "</h2>" +
       '<div class="meta-row">' +
-      '<span class="tag geo">' + esc(c.geography.country) + "</span>" +
+      '<span class="tag geo">' + flagImg(c.geography.iso_n3) + "<span>" + esc(c.geography.country) + "</span></span>" +
       '<span class="status ' + statusClass(c.status) + '">' + esc(c.status) + "</span>" +
       "</div></div>" +
       '<div class="detail-body">' +
       '<ul class="fact-grid">' +
       "<li class=\"fact\"><b>Filing year</b><span>" + esc(c.filing_year) + "</span></li>" +
       "<li class=\"fact\"><b>Status</b><span>" + esc(c.status) + "</span></li>" +
-      "<li class=\"fact\"><b>Geography</b><span>" + esc(c.geography.country) + "</span></li>" +
+      "<li class=\"fact\"><b>Geography</b><span>" + flagImg(c.geography.iso_n3) + esc(c.geography.country) + "</span></li>" +
       "<li class=\"fact\"><b>Deciding bodies</b><span>" + esc(c.jurisdiction.court) + "</span></li>" +
       "<li class=\"fact\"><b>Docket</b><span>" + esc(c.docket) + "</span></li>" +
       "</ul>" +
