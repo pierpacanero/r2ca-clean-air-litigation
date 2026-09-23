@@ -1,0 +1,45 @@
+{
+ "slug": "commission-v-france-no2",
+ "name": "European Commission v French Republic (NO2)",
+ "filing_year": 2018,
+ "status": "Decided",
+ "geography": {
+  "country": "France",
+  "iso_n3": "250"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union"
+ },
+ "docket": "C-636/18",
+ "at_issue": "Systematic and persistent exceedance of NO2 limit values in twelve French agglomerations and air quality zones, and failure of air quality plans to keep the exceedance period as short as possible.",
+ "abstract": "Infringement action under Article 258 TFEU against France for systematically and persistently exceeding, since 1 January 2010, the annual limit value for nitrogen dioxide in twelve agglomerations and air quality zones, including Paris, Lyon and Marseille, and the hourly limit value in Paris and Lyon. The Court (Seventh Chamber) held that France had continued to fail to fulfil its obligations under Article 13(1) of Directive 2008/50/EC, read in conjunction with Annex XI, and that, since 11 June 2010, it had failed to fulfil its obligations under Article 23(1), read in conjunction with Annex XV, in particular the obligation to ensure that the exceedance period is kept as short as possible.",
+ "topics": [
+  "NO2",
+  "Ambient Air Quality Directive",
+  "Air quality plans",
+  "Infringement proceedings"
+ ],
+ "proceedings": [
+  {
+   "date": "11/10/2018",
+   "body": "Court of Justice of the EU",
+   "title": "Action brought by the European Commission",
+   "outcome": "Case registered as C-636/18",
+   "link": null
+  },
+  {
+   "date": "24/10/2019",
+   "body": "Court of Justice of the EU (Seventh Chamber)",
+   "title": "Judgment",
+   "outcome": "Failure of France to fulfil its obligations under Articles 13(1) and 23(1) of Directive 2008/50/EC declared; France ordered to pay the costs",
+   "link": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0636"
+  }
+ ],
+ "sources": [
+  {
+   "label": "Judgment of 24 October 2019, Commission v France, C-636/18, ECLI:EU:C:2019:900, EUR-Lex (CELEX 62018CJ0636)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0636"
+  }
+ ]
+}

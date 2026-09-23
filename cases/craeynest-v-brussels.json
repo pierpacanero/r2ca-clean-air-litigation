@@ -1,0 +1,74 @@
+{
+ "slug": "craeynest-v-brussels",
+ "name": "Craeynest and Others v Brussels Hoofdstedelijk Gewest and Brussels Instituut voor Milieubeheer",
+ "filing_year": 2016,
+ "status": "Decided",
+ "geography": {
+  "country": "Belgium",
+  "iso_n3": "056"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (First Chamber), on a reference from the Nederlandstalige rechtbank van eerste aanleg Brussel (Dutch-language Court of First Instance, Brussels)"
+ },
+ "docket": "C-723/17",
+ "at_issue": "Judicial review of the siting of air quality sampling points, and whether an exceedance of an annual limit value may be established on the basis of a single sampling point.",
+ "abstract": "Preliminary ruling on a reference from the Dutch-language Court of First Instance of Brussels, in an action brought in 2016 by five residents and ClientEarth against the Brussels-Capital Region and the Brussels Institute for Environmental Management. The Court held that a national court seised by individuals directly affected by exceedances of the limit values must verify whether sampling points have been sited in accordance with the criteria of Annex III to Directive 2008/50/EC and, if not, take all necessary measures against the competent authority, such as an order where national law so provides. It further held that a level above an annual limit value measured at a single sampling point suffices to establish an exceedance, irrespective of the average across the zone, and triggers the obligation to adopt an air quality plan. In January 2021 the referring court ordered the Region to install monitoring stations at heavily trafficked locations.",
+ "topics": [
+  "Monitoring and sampling points",
+  "Access to justice",
+  "NO2",
+  "Ambient Air Quality Directive"
+ ],
+ "proceedings": [
+  {
+   "date": "21/09/2016",
+   "body": "Nederlandstalige rechtbank van eerste aanleg Brussel",
+   "title": "Action brought",
+   "outcome": "Residents and ClientEarth seek a declaration that sampling points are not sited in accordance with Directive 2008/50/EC and an order to establish them at appropriate locations",
+   "link": null
+  },
+  {
+   "date": "15/12/2017",
+   "body": "Nederlandstalige rechtbank van eerste aanleg Brussel (23rd Chamber)",
+   "title": "Interlocutory judgment (order for reference)",
+   "outcome": "Proceedings stayed; two questions referred to the Court of Justice for a preliminary ruling",
+   "link": null
+  },
+  {
+   "date": "29/12/2017",
+   "body": "Court of Justice of the EU",
+   "title": "Reference for a preliminary ruling received",
+   "outcome": "Case registered as C-723/17",
+   "link": null
+  },
+  {
+   "date": "26/06/2019",
+   "body": "Court of Justice of the EU (First Chamber)",
+   "title": "Judgment",
+   "outcome": "National courts must review the siting of sampling points and take all necessary measures, such as an order where national law so provides; an exceedance of an annual limit value at a single sampling point suffices",
+   "link": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62017CJ0723"
+  },
+  {
+   "date": "29/01/2021",
+   "body": "Nederlandstalige rechtbank van eerste aanleg Brussel",
+   "title": "Judgment",
+   "outcome": "Region ordered to install, within six months, monitoring stations for NO2, PM10 and PM2.5 at specified high-traffic locations, subject to a penalty of EUR 300 per day",
+   "link": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "Judgment of 26 June 2019, EUR-Lex (CELEX 62017CJ0723)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62017CJ0723"
+  },
+  {
+   "label": "CURIA, Case C-723/17 Craeynest and Others",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-723/17"
+  },
+  {
+   "label": "ClientEarth press release, 29 January 2021 (Brussels court judgment)",
+   "url": "https://www.clientearth.org/latest/press-office/press-releases/clientearth-and-brussels-residents-win-five-year-legal-battle-for-clean-air/"
+  }
+ ]
+}

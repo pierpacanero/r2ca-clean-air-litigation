@@ -1,0 +1,45 @@
+{
+ "slug": "commission-v-italy-pm10",
+ "name": "European Commission v Italian Republic (PM10)",
+ "filing_year": 2018,
+ "status": "Decided",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (Grand Chamber)"
+ },
+ "docket": "C-644/18",
+ "at_issue": "Systematic and persistent exceedance of PM10 limit values and inadequate air quality plans.",
+ "abstract": "Infringement action under Article 258 TFEU against Italy for the systematic and persistent exceedance of the daily and annual limit values for PM10 in several zones and agglomerations between 2008 and 2017, and for failure to adopt, as from 11 June 2010, air quality plans providing for appropriate measures to keep the exceedance period as short as possible. The Grand Chamber declared that Italy had failed to fulfil its obligations under Article 13 of, in conjunction with Annex XI to, Directive 2008/50/EC, and under Article 23(1), on its own and in conjunction with Section A of Annex XV. It rejected Italy's argument that the Directive requires only a gradual reduction of PM10 concentrations, so that exceedances merely trigger the obligation to adopt an air quality plan.",
+ "topics": [
+  "PM10",
+  "Ambient Air Quality Directive",
+  "Air quality plans",
+  "Infringement proceedings"
+ ],
+ "proceedings": [
+  {
+   "date": "13/10/2018",
+   "body": "Court of Justice of the EU",
+   "title": "Action brought by the European Commission",
+   "outcome": "Case registered as C-644/18",
+   "link": null
+  },
+  {
+   "date": "10/11/2020",
+   "body": "Court of Justice of the EU (Grand Chamber)",
+   "title": "Judgment",
+   "outcome": "Failure to fulfil obligations declared under Article 13 of, in conjunction with Annex XI to, Directive 2008/50/EC and under Article 23(1), on its own and in conjunction with Section A of Annex XV; Italy ordered to pay the costs",
+   "link": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0644"
+  }
+ ],
+ "sources": [
+  {
+   "label": "Judgment of 10 November 2020, Commission v Italy, C-644/18, EU:C:2020:895, EUR-Lex (CELEX 62018CJ0644)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0644"
+  }
+ ]
+}

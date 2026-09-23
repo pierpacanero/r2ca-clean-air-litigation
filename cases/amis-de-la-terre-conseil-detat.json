@@ -1,0 +1,82 @@
+{
+ "slug": "amis-de-la-terre-conseil-detat",
+ "name": "Association Les Amis de la Terre France and Others (air quality enforcement)",
+ "filing_year": 2015,
+ "status": "Concluded (2017 decision declared fully executed, 2025)",
+ "geography": {
+  "country": "France",
+  "iso_n3": "250"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Conseil d'État (France)"
+ },
+ "docket": "Nos. 394254 (merits) and 428409 (enforcement)",
+ "at_issue": "Lawfulness of the State's refusal to adopt air quality plans compliant with Article 23 of Directive 2008/50/EC for zones exceeding NO2 and PM10 limit values, and enforcement of the resulting injunction through periodic penalty payments.",
+ "abstract": "Proceedings brought by Les Amis de la Terre France over persistent exceedances of the NO2 and PM10 limit values of Directive 2008/50/EC. In 2017 the Conseil d'État annulled the Government's implicit refusals to act and ordered it to adopt and implement air quality plans for thirteen zones, bringing concentrations below the limit values in the shortest possible time. In enforcement proceedings, joined by dozens of associations, several individuals and one municipality, it imposed in 2020 a penalty of EUR 10 million per six-month period of delay, the highest ever set to compel the State to comply with an administrative court decision. The penalty was provisionally liquidated in 2021, 2022 and 2023 (EUR 40 million in total), mostly allocated to public agencies and approved air quality monitoring associations. In April 2025 the Court held the 2017 decision fully executed.",
+ "topics": [
+  "Enforcement",
+  "Periodic penalty payments",
+  "NO2",
+  "PM10",
+  "Air quality plans"
+ ],
+ "proceedings": [
+  {
+   "date": "12/07/2017",
+   "body": "Conseil d'État (6th and 1st chambers combined)",
+   "title": "Decision no. 394254",
+   "outcome": "Implicit refusals annulled; Prime Minister and environment minister ordered to adopt and implement air quality plans for 13 zones and transmit them to the European Commission by 31 March 2018",
+   "link": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2017-07-12/394254"
+  },
+  {
+   "date": "10/07/2020",
+   "body": "Conseil d'État (Assembly)",
+   "title": "Decision no. 428409",
+   "outcome": "Incomplete execution found; penalty of EUR 10 million per semester imposed on the State unless execution was shown within six months",
+   "link": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2020-07-10/428409"
+  },
+  {
+   "date": "04/08/2021",
+   "body": "Conseil d'État (6th and 5th chambers combined)",
+   "title": "Decision no. 428409 (first provisional liquidation)",
+   "outcome": "EUR 10 million liquidated for January-July 2021: EUR 100,000 to Les Amis de la Terre France, the remainder to ADEME, CEREMA, ANSES, INERIS and four approved air quality monitoring associations",
+   "link": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2021-08-04/428409"
+  },
+  {
+   "date": "17/10/2022",
+   "body": "Conseil d'État (6th and 5th chambers combined)",
+   "title": "Decision no. 428409 (second provisional liquidation)",
+   "outcome": "EUR 20 million liquidated for the two semesters from July 2021 to July 2022",
+   "link": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2022-10-17/428409"
+  },
+  {
+   "date": "24/11/2023",
+   "body": "Conseil d'État (6th and 5th chambers combined)",
+   "title": "Decision no. 428409 (third provisional liquidation)",
+   "outcome": "Decision found executed for PM10 and for NO2 except in Paris and Lyon; EUR 10 million liquidated for July 2022-July 2023",
+   "link": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-11-24/428409"
+  },
+  {
+   "date": "25/04/2025",
+   "body": "Conseil d'État (6th and 5th chambers combined)",
+   "title": "Decision no. 428409 (final enforcement decision)",
+   "outcome": "2017 decision declared fully executed; no further liquidation of the penalty",
+   "link": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2025-04-25/428409"
+  }
+ ],
+ "sources": [
+  {
+   "label": "Conseil d'État, decision no. 394254 of 12 July 2017 (ArianeWeb)",
+   "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2017-07-12/394254"
+  },
+  {
+   "label": "Conseil d'État, press release on the decision of 10 July 2020 (EUR 10 million per semester)",
+   "url": "https://www.conseil-etat.fr/actualites/le-conseil-d-etat-ordonne-au-gouvernement-de-prendre-des-mesures-pour-reduire-la-pollution-de-l-air-sous-astreinte-de-10-m-par-semestre-de-retard"
+  },
+  {
+   "label": "Conseil d'État, decision no. 428409 of 25 April 2025 (ArianeWeb)",
+   "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2025-04-25/428409"
+  }
+ ]
+}

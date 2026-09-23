@@ -1,0 +1,53 @@
+{
+ "slug": "cordella-v-italy",
+ "name": "Cordella and Others v Italy",
+ "filing_year": 2013,
+ "status": "Decided — execution pending (enhanced supervision)",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "ECtHR",
+  "court": "European Court of Human Rights (First Section)"
+ },
+ "docket": "Applications nos. 54414/13 and 54264/15",
+ "at_issue": "State failure to protect residents from industrial air pollution from the Ilva steel plant in Taranto.",
+ "abstract": "Applications by residents of Taranto and neighbouring municipalities concerning the effects of emissions from the Ilva steelworks on their health and the environment. Examining the complaints under Article 8 ECHR alone, the Court held that the national authorities had failed to take all the necessary measures to protect the applicants' right to respect for private life and had not struck a fair balance between the applicants' interest in not suffering serious environmental harm and the interests of society as a whole. It also found a violation of Article 13 taken together with Article 8, owing to the lack of effective domestic remedies to obtain the clean-up of the affected areas. Under Article 46, the Court declined to apply the pilot-judgment procedure but stressed that the environmental plan had to be implemented as rapidly as possible. Execution remains under the enhanced supervision of the Committee of Ministers.",
+ "topics": [
+  "Industrial emissions",
+  "Article 8 ECHR",
+  "Positive obligations",
+  "Effective remedy"
+ ],
+ "proceedings": [
+  {
+   "date": "29/07/2013",
+   "body": "European Court of Human Rights",
+   "title": "First application lodged (no. 54414/13)",
+   "outcome": "Second application (no. 54264/15) lodged on 21/10/2015; the applications were joined in the judgment",
+   "link": null
+  },
+  {
+   "date": "24/01/2019",
+   "body": "European Court of Human Rights (First Section)",
+   "title": "Judgment",
+   "outcome": "Violation of Article 8 and of Article 13 taken together with Article 8 ECHR (unanimous); final on 24/06/2019",
+   "link": "https://hudoc.echr.coe.int/eng?i=001-189421"
+  }
+ ],
+ "sources": [
+  {
+   "label": "ECtHR, Cordella and Others v Italy, nos. 54414/13 and 54264/15, judgment of 24 January 2019 (HUDOC, original French text)",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-189421"
+  },
+  {
+   "label": "ECtHR, Information Note on the Court's case-law no. 225 (January 2019), legal summary of Cordella and Others v Italy (HUDOC)",
+   "url": "https://hudoc.echr.coe.int/eng?i=002-12310"
+  },
+  {
+   "label": "Committee of Ministers, execution of judgments: Cordella and Others group v Italy (HUDOC-EXEC)",
+   "url": "https://hudoc.exec.coe.int/eng?i=004-52515"
+  }
+ ]
+}

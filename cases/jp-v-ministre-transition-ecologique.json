@@ -1,0 +1,49 @@
+{
+ "slug": "jp-v-ministre-transition-ecologique",
+ "name": "JP v Ministre de la Transition écologique and Premier ministre",
+ "filing_year": 2021,
+ "status": "Decided",
+ "geography": {
+  "country": "France",
+  "iso_n3": "250"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (Grand Chamber), on a reference from the Cour administrative d'appel de Versailles"
+ },
+ "docket": "C-61/21",
+ "at_issue": "Whether individuals may claim damages from a Member State, under the EU-law principle of State liability, for health harm caused by breaches of EU air quality limit values and air quality plan obligations.",
+ "abstract": "Preliminary ruling in an action for damages brought by a resident of the Paris agglomeration who attributed the deterioration of his health to air pollution resulting from exceedances of the EU limit values for PM10 and NO2. The Grand Chamber held that Articles 13(1) and 23(1) of Directive 2008/50/EC, and the analogous provisions of the earlier air quality directives, are not intended to confer rights on individuals capable of entitling them to compensation from a Member State under the principle of State liability for breaches of EU law. The Court added that liability may still arise under less strict conditions of national law, and that individuals retain the right to require national authorities, if necessary through the courts, to adopt adequate air quality plans, including by means of injunctions coupled with periodic penalty payments.",
+ "topics": [
+  "State liability",
+  "Damages",
+  "Ambient Air Quality Directive",
+  "Human health"
+ ],
+ "proceedings": [
+  {
+   "date": "02/02/2021",
+   "body": "Court of Justice of the EU",
+   "title": "Reference for a preliminary ruling",
+   "outcome": "Request from the Cour administrative d'appel de Versailles (decision of 29/01/2021, national case no. 18VE01431) lodged and registered as C-61/21",
+   "link": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62021CN0061"
+  },
+  {
+   "date": "22/12/2022",
+   "body": "Court of Justice of the EU (Grand Chamber)",
+   "title": "Judgment",
+   "outcome": "Articles 13(1) and 23(1) of Directive 2008/50/EC and the analogous provisions of the earlier directives do not confer on individuals rights capable of founding a State liability claim for damages under EU law",
+   "link": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62021CJ0061"
+  }
+ ],
+ "sources": [
+  {
+   "label": "Judgment of 22 December 2022, C-61/21, ECLI:EU:C:2022:1015, EUR-Lex (CELEX 62021CJ0061)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62021CJ0061"
+  },
+  {
+   "label": "Request for a preliminary ruling lodged on 2 February 2021, OJ C 128, 12.4.2021, p. 25, EUR-Lex (CELEX 62021CN0061)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62021CN0061"
+  }
+ ]
+}

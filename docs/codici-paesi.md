@@ -1,0 +1,180 @@
+# Codici paese per la mappa (ISO 3166-1 numerico)
+
+Il campo «Country code» di ogni scheda deve contenere il codice a 3 cifre del paese dei fatti, come da tabella. I nomi sono quelli usati dalla mappa del sito (dataset world-atlas 110m).
+
+| Paese (nome sulla mappa) | Codice `iso_n3` |
+|---|---|
+| Afghanistan | 004 |
+| Albania | 008 |
+| Algeria | 012 |
+| Angola | 024 |
+| Antarctica | 010 |
+| Argentina | 032 |
+| Armenia | 051 |
+| Australia | 036 |
+| Austria | 040 |
+| Azerbaijan | 031 |
+| Bahamas | 044 |
+| Bangladesh | 050 |
+| Belarus | 112 |
+| Belgium | 056 |
+| Belize | 084 |
+| Benin | 204 |
+| Bhutan | 064 |
+| Bolivia | 068 |
+| Bosnia and Herz. | 070 |
+| Botswana | 072 |
+| Brazil | 076 |
+| Brunei | 096 |
+| Bulgaria | 100 |
+| Burkina Faso | 854 |
+| Burundi | 108 |
+| Cambodia | 116 |
+| Cameroon | 120 |
+| Canada | 124 |
+| Central African Rep. | 140 |
+| Chad | 148 |
+| Chile | 152 |
+| China | 156 |
+| Colombia | 170 |
+| Congo | 178 |
+| Costa Rica | 188 |
+| Croatia | 191 |
+| Cuba | 192 |
+| Cyprus | 196 |
+| Czechia | 203 |
+| Côte d'Ivoire | 384 |
+| Dem. Rep. Congo | 180 |
+| Denmark | 208 |
+| Djibouti | 262 |
+| Dominican Rep. | 214 |
+| Ecuador | 218 |
+| Egypt | 818 |
+| El Salvador | 222 |
+| Eq. Guinea | 226 |
+| Eritrea | 232 |
+| Estonia | 233 |
+| Ethiopia | 231 |
+| Falkland Is. | 238 |
+| Fiji | 242 |
+| Finland | 246 |
+| Fr. S. Antarctic Lands | 260 |
+| France | 250 |
+| Gabon | 266 |
+| Gambia | 270 |
+| Georgia | 268 |
+| Germany | 276 |
+| Ghana | 288 |
+| Greece | 300 |
+| Greenland | 304 |
+| Guatemala | 320 |
+| Guinea | 324 |
+| Guinea-Bissau | 624 |
+| Guyana | 328 |
+| Haiti | 332 |
+| Honduras | 340 |
+| Hungary | 348 |
+| Iceland | 352 |
+| India | 356 |
+| Indonesia | 360 |
+| Iran | 364 |
+| Iraq | 368 |
+| Ireland | 372 |
+| Israel | 376 |
+| Italy | 380 |
+| Jamaica | 388 |
+| Japan | 392 |
+| Jordan | 400 |
+| Kazakhstan | 398 |
+| Kenya | 404 |
+| Kuwait | 414 |
+| Kyrgyzstan | 417 |
+| Laos | 418 |
+| Latvia | 428 |
+| Lebanon | 422 |
+| Lesotho | 426 |
+| Liberia | 430 |
+| Libya | 434 |
+| Lithuania | 440 |
+| Luxembourg | 442 |
+| Macedonia | 807 |
+| Madagascar | 450 |
+| Malawi | 454 |
+| Malaysia | 458 |
+| Mali | 466 |
+| Mauritania | 478 |
+| Mexico | 484 |
+| Moldova | 498 |
+| Mongolia | 496 |
+| Montenegro | 499 |
+| Morocco | 504 |
+| Mozambique | 508 |
+| Myanmar | 104 |
+| Namibia | 516 |
+| Nepal | 524 |
+| Netherlands | 528 |
+| New Caledonia | 540 |
+| New Zealand | 554 |
+| Nicaragua | 558 |
+| Niger | 562 |
+| Nigeria | 566 |
+| North Korea | 408 |
+| Norway | 578 |
+| Oman | 512 |
+| Pakistan | 586 |
+| Palestine | 275 |
+| Panama | 591 |
+| Papua New Guinea | 598 |
+| Paraguay | 600 |
+| Peru | 604 |
+| Philippines | 608 |
+| Poland | 616 |
+| Portugal | 620 |
+| Puerto Rico | 630 |
+| Qatar | 634 |
+| Romania | 642 |
+| Russia | 643 |
+| Rwanda | 646 |
+| S. Sudan | 728 |
+| Saudi Arabia | 682 |
+| Senegal | 686 |
+| Serbia | 688 |
+| Sierra Leone | 694 |
+| Slovakia | 703 |
+| Slovenia | 705 |
+| Solomon Is. | 090 |
+| Somalia | 706 |
+| South Africa | 710 |
+| South Korea | 410 |
+| Spain | 724 |
+| Sri Lanka | 144 |
+| Sudan | 729 |
+| Suriname | 740 |
+| Sweden | 752 |
+| Switzerland | 756 |
+| Syria | 760 |
+| Taiwan | 158 |
+| Tajikistan | 762 |
+| Tanzania | 834 |
+| Thailand | 764 |
+| Timor-Leste | 626 |
+| Togo | 768 |
+| Trinidad and Tobago | 780 |
+| Tunisia | 788 |
+| Turkey | 792 |
+| Turkmenistan | 795 |
+| Uganda | 800 |
+| Ukraine | 804 |
+| United Arab Emirates | 784 |
+| United Kingdom | 826 |
+| United States of America | 840 |
+| Uruguay | 858 |
+| Uzbekistan | 860 |
+| Vanuatu | 548 |
+| Venezuela | 862 |
+| Vietnam | 704 |
+| W. Sahara | 732 |
+| Yemen | 887 |
+| Zambia | 894 |
+| Zimbabwe | 716 |
+| eSwatini | 748 |

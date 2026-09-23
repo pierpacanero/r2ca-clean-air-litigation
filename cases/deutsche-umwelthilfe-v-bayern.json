@@ -1,0 +1,45 @@
+{
+ "slug": "deutsche-umwelthilfe-v-bayern",
+ "name": "Deutsche Umwelthilfe v Freistaat Bayern",
+ "filing_year": 2018,
+ "status": "Decided",
+ "geography": {
+  "country": "Germany",
+  "iso_n3": "276"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (Grand Chamber), on a reference from the Bayerischer Verwaltungsgerichtshof"
+ },
+ "docket": "C-752/18",
+ "at_issue": "Whether EU law, in particular the right to effective judicial protection under Article 47 of the Charter, empowers or requires national courts to order the coercive detention of office holders where an authority persistently refuses to implement judicially ordered air quality measures.",
+ "abstract": "Preliminary ruling arising from enforcement proceedings brought by Deutsche Umwelthilfe after the Land of Bavaria persistently refused to comply with final judicial decisions requiring it to amend the Munich air quality plan to meet the nitrogen dioxide limit value, including by imposing traffic bans on certain diesel vehicles. The Grand Chamber held that the first paragraph of Article 47 of the Charter requires the national court to order the coercive detention of office holders where an authority persistently refuses to comply with such decisions, provided that domestic law offers a sufficiently accessible, precise and foreseeable legal basis and the resulting limitation of the right to liberty meets the conditions of Article 52(1) of the Charter. Absent such a legal basis, EU law does not empower the court to order detention.",
+ "topics": [
+  "Enforcement",
+  "Diesel traffic bans",
+  "Effective judicial protection",
+  "Air quality plans"
+ ],
+ "proceedings": [
+  {
+   "date": "03/12/2018",
+   "body": "Court of Justice of the EU",
+   "title": "Reference for a preliminary ruling (Bayerischer Verwaltungsgerichtshof, decision of 9 November 2018)",
+   "outcome": "Reference received at the Court and registered as C-752/18",
+   "link": null
+  },
+  {
+   "date": "19/12/2019",
+   "body": "Court of Justice of the EU (Grand Chamber)",
+   "title": "Judgment",
+   "outcome": "National court must order coercive detention of office holders where domestic law provides a sufficiently accessible, precise and foreseeable legal basis and Article 52(1) of the Charter is complied with; absent such a basis, EU law does not empower it to do so",
+   "link": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0752"
+  }
+ ],
+ "sources": [
+  {
+   "label": "Judgment of 19 December 2019, C-752/18, ECLI:EU:C:2019:1114, EUR-Lex (CELEX 62018CJ0752)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0752"
+  }
+ ]
+}
